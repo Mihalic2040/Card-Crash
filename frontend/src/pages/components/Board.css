@@ -1,0 +1,28 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the board height to fill the viewport */
+  }
+  
+  .opponent-cards {
+    display: flex; /* Display opponent's cards in a row */
+    justify-content: center; /* Center cards horizontally */
+    margin-bottom: auto; /* Push the opponent's cards to the top */
+  }
+  
+  .play-area {
+    display: flex; /* Display cards in the playing area in a row */
+    justify-content: center; /* Center cards horizontally */
+    margin: 16px 0; /* Add margin around the playing area */
+  }
+  
+  .player-cards {
+    display: flex; /* Display player's cards in a row */
+    justify-content: center; /* Center cards horizontally */
+    margin-top: auto; /* Push the player's cards to the bottom */
+  }
+  
+  /* Rest of the styles remain the same */
+  
